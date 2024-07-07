@@ -1,21 +1,18 @@
 .card__container{
     position: relative;
-    border: 3px solid #3e4357;
     border-radius: 10px;
-    width: 350px;
-    height: 500px;
-
+    min-width: 0;
     display: flex;
     overflow: hidden;
-    margin-top: 10px;
+    box-sizing: border-box;
 }
+
 
 .card__img{
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     transition: transform .8s;
+    display: block;
 }
 
-.card__img:hover{
- transform: scale(1.1);
-}
