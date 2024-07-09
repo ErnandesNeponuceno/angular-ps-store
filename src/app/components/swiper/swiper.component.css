@@ -1,0 +1,31 @@
+.swiper_container{
+  padding: 4rem;
+}
+
+:host {
+    display: block;
+    height: 100%;
+  }
+  
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: .3rem;
+    box-sizing: border-box;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  

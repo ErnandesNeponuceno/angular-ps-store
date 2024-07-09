@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { register } from 'swiper/element/bundle';
+import { SwiperComponent } from './components/swiper/swiper.component';
+register();
 
 
 @NgModule({
@@ -13,7 +16,8 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
     AppComponent,
     HomeComponent,
     CardComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    SwiperComponent
 
   ],
   imports: [
