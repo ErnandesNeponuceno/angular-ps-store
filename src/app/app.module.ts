@@ -8,6 +8,8 @@ import { CardComponent } from './components/card/card.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { register } from 'swiper/element/bundle';
 import { SwiperComponent } from './components/swiper/swiper.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PreviewComponent } from './components/preview/preview.component';
 register();
 
 
@@ -17,7 +19,9 @@ register();
     HomeComponent,
     CardComponent,
     MenuBarComponent,
-    SwiperComponent
+    SwiperComponent,
+    FooterComponent,
+    PreviewComponent
 
   ],
   imports: [

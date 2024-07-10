@@ -1,5 +1,13 @@
 .swiper_container{
-  padding: 4rem;
+  padding: 1.25rem 1rem;
+}
+
+h2{
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: 0.1px;
+  font-size: 1.625rem;
+  margin-bottom: 1rem;
 }
 
 :host {
@@ -29,3 +37,18 @@
     box-sizing: border-box;
   }
   
+@media (width >= 768px){
+  .swiper_container{
+    padding: 1.5rem 1.5rem;
+  }
+}
+@media (width >= 1024px){
+  .swiper_container{
+    padding: 1.5rem 1.75rem;
+  }
+}
+@media (width >= 1366px){
+  .swiper_container{
+    padding: 2rem 3rem;
+  }
+}

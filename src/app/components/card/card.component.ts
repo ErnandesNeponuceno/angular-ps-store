@@ -11,10 +11,6 @@ export class CardComponent implements OnInit {
   gameCover:string= ""
   @Input()
   gameLabel:string= ""
-  @Input()
-  gameType:string= ""
-  @Input()
-  gamePrice:string= ""
 
   constructor() { }
 

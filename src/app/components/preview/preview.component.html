@@ -1,0 +1,9 @@
+<div class="preview">
+    <h3>Veja mais</h3>
+    <div class="preview-container">
+        <div class="preview-item" *ngFor="let item of items">
+          <img [src]="item.imgSrc" alt="{{ item.altText }}">
+        </div>
+    </div>
+</div>
+  

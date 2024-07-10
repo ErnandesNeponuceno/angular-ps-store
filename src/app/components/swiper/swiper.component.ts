@@ -1,12 +1,24 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit, OnInit } from '@angular/core';
 import Swiper from 'swiper';
+import { data } from './data';
 
 @Component({
   selector: 'app-swiper',
   templateUrl: './swiper.component.html',
   styleUrls: ['./swiper.component.css']
 })
-export class SwiperComponent implements AfterViewInit {
+export class SwiperComponent implements AfterViewInit, OnInit {
+
+  dados: any[] = [];
+  
+  ngOnInit(): void {
+    this.dados = [
+      { titulo: 'Novos jogos', jogos: data.novosJogos },
+      { titulo: '10 melhores jogos no seu país', jogos: data.melhoresJogos },
+      { titulo: 'Pré-venda', jogos: data.preVendas }
+    ];
+  }
+
   ngAfterViewInit() {
     const swiper = new Swiper('.mySwiper', {
       slidesPerView: 2,
