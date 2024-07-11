@@ -31,6 +31,18 @@ export const data = {
       { src: 'assets/31.jpg', alt: 'Farming Simulator 25', descricao: 'Farming Simulator 25' },
       { src: 'assets/32.jpg', alt: 'Star Wars Outlaws', descricao: 'Star Wars Outlaws' },
       { src: 'assets/33.jpg', alt: 'Frogun Encore DEMO', descricao: 'Frogun Encore DEMO' }
+    ],
+    demonstracoes: [
+      { src: 'assets/34.jpg', alt: 'Nuclear Blaze', descricao: 'Nuclear Blaze' },
+      { src: 'assets/35.jpg', alt: 'Welcome to ParadiZe - Demo', descricao: 'Welcome to ParadiZe - Demo' },
+      { src: 'assets/36.jpg', alt: 'The Legend of Heroes: Trails through Daybreak Demo', descricao: 'The Legend of Heroes: Trails through Daybreak Demo' },
+      { src: 'assets/37.jpg', alt: 'Fishbowl', descricao: 'Fishbowl' },
+      { src: 'assets/38.jpg', alt: 'Sugar Mess - Lets Play Jolly Battle Demo', descricao: 'Sugar Mess - Lets Play Jolly Battle Demo' },
+      { src: 'assets/39.jpg', alt: 'Morkull Ragasts Rage', descricao: 'Morkull Ragasts Rage' },
+      { src: 'assets/40.jpg', alt: 'Farming Simulator 25', descricao: 'Farming Simulator 25' },
+      { src: 'assets/41.jpg', alt: 'Jujutsu Kaisen Cursed Clash DEMO', descricao: 'Jujutsu Kaisen Cursed Clash DEMO' },
+      { src: 'assets/42.jpg', alt: 'Beat the Beats VR', descricao: 'Beat the Beats VR' },
+      { src: 'assets/43.jpg', alt: 'Selfloss', descricao: 'Selfloss' }
     ]
   };
   

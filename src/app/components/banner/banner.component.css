@@ -1,0 +1,137 @@
+.banner-container {
+    padding: 6.5rem 0 0;
+}
+
+.banner-container-nba {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: url('/assets/plateia.jpg') no-repeat center center / cover;
+}
+
+.banner-background {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 1.5rem;
+    max-height: 450px;
+}
+
+.banner-logo {
+    width: 100%;
+    max-width: 320px;
+    align-self: center;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-logo>img{
+    max-width: 100%;
+    /* min-width: 100%; */
+}
+.banner-player>img {
+    max-width: 100%;
+    /* min-width: 100%; */
+}
+
+.banner-player {
+    display: block;
+    width: 100%;
+    position: relative;
+    max-width: 500px;
+    left: -10%;
+    transform: translateY(-10%) translateX(0%);
+    object-position: center;
+    z-index: 1;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1rem 1rem;
+    width: 100%;
+    color: #6b6b6b;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, .12);
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.banner-content h2 {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 1.42rem;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: 0.1px;
+}
+
+.banner-content p {
+    margin: 0.5rem 0;
+    font-size: .85rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.banner-button button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+.banner-button button:hover {
+    background-color: #0056b3;
+}
+
+
+@media (width >=768px) {
+    .banner-content {
+        flex-direction: row;
+        padding: 1.5rem 2rem;
+    }
+
+    .banner-content-text {
+        max-width: calc(100vw - 170px);
+    }
+
+    .banner-content h2 {
+        font-size: 1.57rem;
+    }
+
+    .banner-background {
+        padding: 0 2rem;
+    }
+
+    .banner-container {
+        padding: 12rem 0 0;
+    }
+    .banner-player {
+        position: relative;
+        max-width: 500px;
+        left: 0%;
+        transform: translateY(-10%) translateX(0%);
+        object-position: center;
+    }
+
+
+}
+
+@media (width >=1024px) {
+    .banner-container {
+        padding: 8rem 0 0;
+    }
+
+}
+
+@media (width >=1366px) {
+    .banner-content {
+        padding: 2rem 4rem;
+    }
+}

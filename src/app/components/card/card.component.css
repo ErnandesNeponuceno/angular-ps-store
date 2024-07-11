@@ -1,17 +1,14 @@
 .card__container{
-    position: relative;
-    border-radius: 10px;
-    min-width: 0;
     display: flex;
-    overflow: hidden;
     box-sizing: border-box;
 }
 
 .card__img{
     width: 100%;
-    max-width: 300px;
+    /* max-width: 300px; */
     height: auto;
     transition: transform .8s;
-    display: block;
+    /* display: block; */
+    border-radius: 10px;
 }
 

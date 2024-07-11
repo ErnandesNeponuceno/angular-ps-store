@@ -15,7 +15,8 @@ export class SwiperComponent implements AfterViewInit, OnInit {
     this.dados = [
       { titulo: 'Novos jogos', jogos: data.novosJogos },
       { titulo: '10 melhores jogos no seu país', jogos: data.melhoresJogos },
-      { titulo: 'Pré-venda', jogos: data.preVendas }
+      { titulo: 'Pré-venda', jogos: data.preVendas },
+      { titulo: 'Demonstrações', jogos: data.demonstracoes }
     ];
   }
 

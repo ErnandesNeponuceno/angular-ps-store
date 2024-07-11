@@ -10,6 +10,8 @@ import { register } from 'swiper/element/bundle';
 import { SwiperComponent } from './components/swiper/swiper.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PreviewComponent } from './components/preview/preview.component';
+import { JogosMensaisComponent } from './components/jogos-mensais/jogos-mensais.component';
+import { BannerComponent } from './components/banner/banner.component';
 register();
 
 
@@ -21,7 +23,9 @@ register();
     MenuBarComponent,
     SwiperComponent,
     FooterComponent,
-    PreviewComponent
+    PreviewComponent,
+    JogosMensaisComponent,
+    BannerComponent
 
   ],
   imports: [

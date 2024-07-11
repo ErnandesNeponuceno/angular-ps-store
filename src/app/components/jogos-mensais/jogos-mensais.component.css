@@ -1,0 +1,114 @@
+.jogos-mensais-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 500px;
+    background: url('/assets/playbackground.png') no-repeat center center / cover;
+    margin-top: 2rem;
+  }
+
+  .jogos-mensais-banner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 1.5rem;
+  }
+  
+  .jogos-img{
+    display: flex;
+    width: 100%;
+  }
+
+  .jogos-img img{
+    max-width: 100%;
+  }
+
+  .jogos-img:nth-child(1){
+    align-self: center;
+    position: relative;
+    width: 320px;
+  }
+
+  .jogos-img:nth-child(2){
+    position: relative;
+    width: 400px;    
+  }
+
+  .jogos-mensais-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1rem 1rem;
+    width: 100%;
+    color: #6b6b6b;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, .12);
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  
+  .jogos-mensais-content h2 {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 1.42rem;
+    font-weight: 300;
+    line-height: 1.25;
+    letter-spacing: 0.1px;
+  }
+
+  .jogos-mensais-content p {
+    margin: 0.5rem 0;
+    font-size: .85rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+  
+  .jogos-mensais-content button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    font-weight: bold;
+  }
+  
+  .jogos-mensais-content button:hover {
+    background-color: #0056b3;
+  }
+  
+
+@media (width >= 768px){
+    .jogos-mensais-content {
+      flex-direction: row;
+    }
+    .jogos-mensais-text{
+      max-width: calc(100vw - 170px);
+    }
+    .jogos-mensais-content {
+      padding: 1.5rem 2rem;
+  }
+  .jogos-mensais-content h2 {
+    font-size: 1.57rem;
+  }
+  .jogos-mensais-banner{
+    padding: 0 2rem;
+}
+
+  
+}
+
+@media (width >= 1024px){
+  .jogos-mensais-content {
+    padding: 1.75rem 2.5rem;
+  }
+}
+@media (width >= 1366px){
+  .jogos-mensais-content {
+    padding: 2rem 4rem;
+  }
+}
+
+  
