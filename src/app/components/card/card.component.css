@@ -1,14 +1,11 @@
-.card__container{
+.card__container {
     display: flex;
     box-sizing: border-box;
 }
 
-.card__img{
+.card__img {
     width: 100%;
-    /* max-width: 300px; */
     height: auto;
     transition: transform .8s;
-    /* display: block; */
     border-radius: 10px;
 }
-

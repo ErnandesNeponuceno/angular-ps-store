@@ -1,73 +1,95 @@
 footer {
-background-color: #003697;
-color: white;
-padding: 1.25rem 1.5rem;
+    background-color: #003697;
+    color: white;
+    padding: 1.25rem 1.5rem;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+    font-size: 30px;
+}
+
+.language {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
 .footer-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-flex-direction: column;
-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
 }
 
 .footer-section {
-flex: 1;
-margin: 10px;
+    flex: 1;
+    margin: 10px;
 }
 
-.logo{
+.logo {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
 }
 
 .footer-section img {
-width: 45px;
-margin-bottom: 10px;
+    width: 45px;
+    margin-bottom: 10px;
 }
 
 .footer-section ul {
-list-style: none;
-padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .footer-section ul li {
-margin: 1rem 0;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.25;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.footer-section ul li:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
 }
 
 .footer-bottom {
-text-align: center;
-padding: 10px 20px;
-border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-@media (width >= 768px) {
-.footer-container {
-    flex-direction: row;  
-}
-.logo{
-    align-items: normal
-}
-footer {
-    padding: 1.5rem 2rem;
+@media (width >=768px) {
+    .footer-container {
+        flex-direction: row;
+    }
+
+    .logo {
+        align-items: normal;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    footer {
+        padding: 1.5rem 2rem;
+    }
 }
 
-}
-
-@media (width >= 1024px) {
+@media (width >=1024px) {
     footer {
         padding: 1.5rem 3rem;
     }
-    
 }
-@media (width >= 1366px) {
+
+@media (width >=1366px) {
     footer {
         padding: 1.5rem 4rem;
     }
-    
 }

@@ -1,4 +1,4 @@
-.home_container{
+.home_container {
     width: 100%;
     margin: 0 auto;
     padding-top: 2.5rem;
@@ -9,27 +9,22 @@
     flex: 0 0 100%;
     gap: 1rem;
 }
-.home_container > app-card{
+
+.home_container>app-card {
     width: calc(50vw - 35px);
     min-width: calc(50vw - 35px);
-    
 }
 
-@media (width >= 768px){
-
-    .home_container > app-card {
+@media (width >=768px) {
+    .home_container>app-card {
         width: calc(33.3333333333vw - 37.3333333333px);
         min-width: calc(33.3333333333vw - 37.3333333333px);
     }
-
 }
-@media (width >= 1024px){
 
-}
-@media (width >= 1366px){
-    .home_container > app-card {
+@media (width >=1366px) {
+    .home_container>app-card {
         width: calc(25vw - 52px);
         min-width: calc(25vw - 52px);
     }
 }
-

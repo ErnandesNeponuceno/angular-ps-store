@@ -1,41 +1,18 @@
 <footer>
-    <div class="footer-section logo">
-        <img src="assets/playstation-logo.png" alt="PlayStation Logo">
-        <p>País/região: Brasil</p>
+  <div class="footer-section logo">
+    <img src="assets/playstation-logo.png" alt="PlayStation Logo">
+    <div class="language">
+      <span class="material-symbols-outlined">language</span><p>País/região: Brasil</p>
     </div>
-    <div class="footer-container">
-      <div class="footer-section">
-        <ul>
-          <li>Suporte</li>
-          <li>Política de privacidade</li>
-          <li>Termos de uso do site</li>
-          <li>Mapa do site</li>
-          <li>PlayStation Studios</li>
-          <li>Legal</li>
-          <li>Sobre a SIE</li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <ul>
-          <li>Termos de serviço da PSN</li>
-          <li>Política de cancelamento da PS Store</li>
-          <li>Avisos de saúde</li>
-          <li>Sobre as classificações</li>
-        </ul>
-      </div>
-      <div class="footer-section">
-        <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>YouTube</li>
-          <li>Instagram</li>
-          <li>Aplicativo para Android</li>
-          <li>Aplicativo para iOS</li>
-        </ul>
-      </div>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section" *ngFor="let section of footerSections">
+      <ul>
+        <li *ngFor="let item of section.items">{{ item }}</li>
+      </ul>
     </div>
-    <div class="footer-bottom">
-      <p>© 2024 Sony Interactive Entertainment Inc. Todos os direitos reservados.</p>
-    </div>
-  </footer>
-  
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Sony Interactive Entertainment Inc. Todos os direitos reservados.</p>
+  </div>
+</footer>
