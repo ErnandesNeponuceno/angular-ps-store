@@ -28,12 +28,12 @@
 .jogos-img:nth-child(1) {
   align-self: center;
   position: relative;
-  width: 320px;
+  width: 20rem;
 }
 
 .jogos-img:nth-child(2) {
   position: relative;
-  width: 400px;
+  width: 25rem;
 }
 
 .jogos-mensais-content {
@@ -82,14 +82,11 @@
 @media (width >=768px) {
   .jogos-mensais-content {
     flex-direction: row;
+    padding: 1.5rem 2rem;
   }
 
   .jogos-mensais-text {
     max-width: calc(100vw - 170px);
-  }
-
-  .jogos-mensais-content {
-    padding: 1.5rem 2rem;
   }
 
   .jogos-mensais-content h2 {

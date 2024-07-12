@@ -29,11 +29,12 @@
 
 .banner-logo>img{
     max-width: 100%;
-    /* min-width: 100%; */
 }
+
 .banner-player>img {
     max-width: 100%;
-    /* min-width: 100%; */
+    bottom: 0;
+    position: relative;
 }
 
 .banner-player {
@@ -90,7 +91,6 @@
     background-color: #0056b3;
 }
 
-
 @media (width >=768px) {
     .banner-content {
         flex-direction: row;
@@ -119,15 +119,12 @@
         transform: translateY(-10%) translateX(0%);
         object-position: center;
     }
-
-
 }
 
-@media (width >=1024px) {
+@media (width >=1025px) {
     .banner-container {
         padding: 8rem 0 0;
     }
-
 }
 
 @media (width >=1366px) {
